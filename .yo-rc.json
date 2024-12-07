@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "blog": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      },
+      "store": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      }
+    },
+    "authenticationType": "oauth2",
+    "baseName": "gateway",
+    "devServerPort": 4200,
+    "entities": ["Blog", "Post", "Tag", "Product"],
+    "jhipsterVersion": "8.7.3",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1733576073000,
+    "nativeLanguage": "en",
+    "packageName": "com.okta.developer.gateway",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": true,
+    "testFrameworks": ["protractor"]
+  }
+}
